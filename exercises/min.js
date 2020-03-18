@@ -10,8 +10,14 @@
  */
 
 // Your code:
-
-//* Begin of tests
+const min = (a, b) => {
+        if (a < b) {
+            return a
+        } else {
+            return b
+        }
+    }
+    //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof min, 'function');
