@@ -8,8 +8,14 @@
  */
 
 // Your code:
-
-//* Begin of tests
+const isPositive = (number) => {
+        if (number > 0) {
+            return true
+        } else {
+            return false
+        }
+    }
+    //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof isPositive, 'function');
