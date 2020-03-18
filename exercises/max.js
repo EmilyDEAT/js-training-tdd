@@ -10,8 +10,14 @@
  */
 
 // Your code:
-
-//* Begin of tests
+const max = (a, b) => {
+        if (a > b) {
+            return a
+        } else {
+            return b
+        }
+    }
+    //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof max, 'function');
