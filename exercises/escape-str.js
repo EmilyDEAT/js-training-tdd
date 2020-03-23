@@ -8,8 +8,8 @@
  */
 
 // Your code:
-
-//* Begin of tests
+const escapeStr = '\\\/\`\"\''
+    //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof escapeStr, 'string');
