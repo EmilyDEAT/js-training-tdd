@@ -7,7 +7,16 @@
  */
 
 // Your code:
-const sentence = (array) => array.join(' ')
+// const sentence = (array) => array.join(' ')
+
+const sentence = (array) => {
+    let message = ""
+    for (let i = 0; i < array.length; i++) {
+        message = (i === 0) ? array[i] : message + " " + array[i]
+    }
+    return message
+}
+
 
 //* Begin of tests
 const assert = require('assert');
